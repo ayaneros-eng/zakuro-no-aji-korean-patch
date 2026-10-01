@@ -1,0 +1,68 @@
+{
+  "version": "v2.0m",
+  "status": "release_candidate",
+  "source_sha256": "4e0a7f639c185b49abe70de16bf7ef062a316d986753c7aabd9b98e6b956d0b6",
+  "target_sha256": "9a447a967ccfe2cecb0485f3def940d8067dcfc35133a5cf5d6436784030657f",
+  "files": [
+    {
+      "path": "Apply_Korean.bat",
+      "size": 483,
+      "sha256": "07ce8e3ca8840e0e8bc8c5a2dba8dc0c37c3308478f66f206f747c43eaf0b687"
+    },
+    {
+      "path": "apply_korean.py",
+      "size": 4027,
+      "sha256": "a296277f7a9490f63cae8c0e5098d03697b4a4e7c9350dc1ba8be3ff56835825"
+    },
+    {
+      "path": "apply_korean.sh",
+      "size": 354,
+      "sha256": "dedc2877c0b6856395ac7b839faaa15a085343899b3f577661c696ca8fe0a36c"
+    },
+    {
+      "path": "extras/Zakuro_v2.0j_to_v2.0m.bps",
+      "size": 34662,
+      "sha256": "a3f5aead05c4167bca82f5b5eee5e31de77b4fa9c8b44fd11dae8ff2a451d7db"
+    },
+    {
+      "path": "extras/Zakuro_v2.0k_to_v2.0m.bps",
+      "size": 23170,
+      "sha256": "0cfaf8b8c0ece9b5d83602f947f29690d3a0459c006fbdfc921d680e51bc5b87"
+    },
+    {
+      "path": "extras/Zakuro_v2.0l_to_v2.0m.bps",
+      "size": 23134,
+      "sha256": "8daa7d3878148bb1ccb49cca995124d13d14ec5f419d04776d4c11f4ea6c6257"
+    },
+    {
+      "path": "FONT_NOTICE.txt",
+      "size": 151,
+      "sha256": "fc5ef8fa091e376e7613effff0e7badd224d0add43e360204dde7db233eb50a8"
+    },
+    {
+      "path": "OFL-Noto.txt",
+      "size": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "QA_SCOPE_KO.txt",
+      "size": 2108,
+      "sha256": "8dddb6ba3adf9187a27f914a88705268764217e1d04cee6840bf7e96040fded8"
+    },
+    {
+      "path": "README_KO.txt",
+      "size": 3167,
+      "sha256": "9609b352cb12756b38761f8d9cda0ebc43306826f04527ff357275b0b0371270"
+    },
+    {
+      "path": "Zakuro_original_to_v2.0m.bps",
+      "size": 2103678,
+      "sha256": "64a5c845a331415872562d6aa684713d98862a8714de138760c415c6df1c964e"
+    },
+    {
+      "path": "ZakuroPatcher.exe",
+      "size": 9216,
+      "sha256": "e89372b253a30ef0209d78c814a6f5d38d02ef771831661f57dfabdf53ff3eb2"
+    }
+  ]
+}

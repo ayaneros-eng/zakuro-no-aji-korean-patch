@@ -1,0 +1,12 @@
+*.sfc
+*.smc
+*.srm
+*.sav
+*.state
+*.state*
+*.pdb
+*.log
+*.tmp
+*.zip
+__pycache__/
+.gh-auth/
