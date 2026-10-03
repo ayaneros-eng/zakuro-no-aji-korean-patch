@@ -1,0 +1,41 @@
+name: 진행·저장 문제 제보
+description: 멈춤, 선택지 문제, 저장/이어하기 오류를 알려 주세요.
+title: "[진행] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 패치 버전
+      value: v2.0m-E
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 기기·에뮬레이터·버전
+    validations:
+      required: true
+  - type: dropdown
+    id: start
+    attributes:
+      label: 시작 방법
+      options:
+        - 새로 부팅 후 새 게임
+        - 일반 게임 저장으로 이어하기
+        - 같은 E형의 세이브스테이트
+        - 다른 버전의 세이브스테이트
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서와 선택지
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 기대한 동작과 실제 결과 / 스크린샷
+      description: "ROM·개인 정보는 첨부하지 마세요."
+    validations:
+      required: true

@@ -1,0 +1,41 @@
+name: 가독성·글자 표시 제보
+description: 잘못 읽히는 글자, 빠진 획, 겹침, 줄바꿈을 알려 주세요.
+title: "[가독성] "
+body:
+  - type: markdown
+    attributes:
+      value: "스크린샷과 문제 문장을 함께 남겨 주세요. ROM과 개인 정보는 첨부하지 마세요."
+  - type: input
+    id: version
+    attributes:
+      label: 패치 버전
+      value: v2.0m-E
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 기기·에뮬레이터·버전·배율/필터
+      placeholder: "예: Snes9x 1.63, 3배, 필터 없음"
+    validations:
+      required: true
+  - type: textarea
+    id: reading
+    attributes:
+      label: 문제 문장과 기대한 글자 / 실제로 보이는 글자
+      placeholder: "예: 도쿄가 드쿄처럼 보입니다."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 해당 장면까지의 진행·선택 순서
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 스크린샷
+      description: "이미지를 이 칸에 끌어 놓으세요. 원본 크기 화면과 확대 화면이 있으면 좋습니다."
+    validations:
+      required: false
